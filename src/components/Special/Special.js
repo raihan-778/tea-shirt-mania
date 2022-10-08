@@ -1,15 +1,14 @@
 import React, { useContext } from "react";
 import { MoneyContext } from "../Grandpa/Grandpa";
 
-const Sister = ({ house }) => {
+const Special = () => {
   const [Money, setMoney] = useContext(MoneyContext);
   return (
     <div>
-      <h2>Sister</h2>
-      <p>House: {house}</p>
-      <p>Money: {Money}</p>
+      <h2>{Money}</h2>
+      <button onClick={() => setMoney(Money + 100)}>Increase</button>
     </div>
   );
 };
 
-export default Sister;
+export default Special;
