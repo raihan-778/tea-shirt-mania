@@ -1,0 +1,20 @@
+.order {
+  background: slategray;
+  color: beige;
+}
+.cyan {
+  background-color: cyan;
+  color: black;
+}
+.bold {
+  background-color: blue;
+  font-weight: bold;
+  font-size: 16px;
+  color: blanchedalmond;
+}
+.cart-greeting {
+  background-color: darkblue;
+  color: blanchedalmond;
+  font-weight: 700;
+  font-size: 20px;
+}
